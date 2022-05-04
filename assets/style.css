@@ -1,10 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
 /* -------------------------------------------------landing page start -------------------------------------------------------------- */
 .landing-container{
     position: relative;
+    text-align: center;
 }
 .landing-img{
     background: linear-gradient(rgba(14, 13, 13, 0.5), rgba(24, 23, 23, 0.5)), 
@@ -16,12 +18,43 @@ body{
 }
 
 .landing-info-container{
-    color: red;
+    color: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    top:0;
+    bottom: 0;
+    left: 50px;
+    right: 50px;
+    margin: auto;
+    padding: 120px 0 50px;
+    
+    
+}.intro{
+    font-weight: 100;
+    font-size: 13px;
+}
+.landing-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.landing-text{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.version{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+button{
+    padding:10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
 
 }
-/* -------------------------------------------------------landing page end ----------------------------------------------------------------- */
+button:hover{
+    color: black;
+    background-color: white;
+}
