@@ -1,12 +1,25 @@
 body{
     margin: 0;
     padding: 0;
-}
-/* html{
-    background-color: teal;
-} */
 
-img{
-    width: 100vw;
-    height: 90vh;
 }
+/* -------------------------------------------------landing page start -------------------------------------------------------------- */
+.landing-img{
+    background: linear-gradient(rgba(14, 13, 13, 0.5), rgba(24, 23, 23, 0.5)), 
+    url("https://damassets.autodesk.net/content/dam/autodesk/www/solutions/architectural-drawing/what-is-architecture-drawing-thumb-1172x660.jpg"),
+    center;
+    background-size: cover;
+    height: 90vh;
+    color: darkgray;
+}
+.landing-container{
+    position: relative;
+}
+.landing-info{
+
+    color: white;
+    position: absolute;
+text-align: center;
+
+}
+/* -------------------------------------------------------landing page end ----------------------------------------------------------------- */
